@@ -1,50 +1,16 @@
-# CASA-0022
+# myfirstapp
 
-A dissertation project of monitor freezer environment in Bio-lab.
+A new Flutter project.
 
-## Connecting the physical device
+## Getting Started
 
-[DS18B20.ino](https://github.com/xxu121/CASA-0022/blob/main/DS18B20.ino) outlines the setup and code for integrating a temperature monitoring system using the MKR 1010 board and DS18B20 temperature sensor, complemented by a lipo battery and a 4.7k ohm resistor for stability. The code leverages several libraries such as WiFiNINA, ezTime, PubSubClient, OneWire, and DallasTemperature to facilitate WiFi connectivity, time synchronization, and MQTT communication.
+This project is a starting point for a Flutter application.
 
-### Key Components:
+A few resources to get you started if this is your first Flutter project:
 
-Board: MKR 1010
+- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
+- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
 
-
-Sensor: DS18B20
-
-
-Additional Hardware: Lipo battery, 4.7k ohm resistor
-
-<img width="787" alt="image" src="https://github.com/xxu121/CASA-0022/assets/146341729/2a896eab-2ef1-481f-ad77-ebefad3879ed">
-
-
-### Libraries Used:
-
-WiFiNINA for handling WiFi connections.
-
-
-ezTime for managing date and time synchronization.
-
-
-PubSubClient for MQTT communication.
-
-
-OneWire and DallasTemperature for interfacing with the DS18B20 sensor.
-
-
-### Main Functions
-
-
-Temperature reading: DS18B20 sensor reads the temperature and sends the data via MQTT.
-
-
-WiFi Connection: Automatically connect to a predefined network using credentials stored in arduino_secrets.h.
-
-
-MQTT Communication: Sends temperature data to MQTT server and uses callback functions to process incoming information.
-
-
-Time Synchronization: Synchronize the time over the internet to ensure accurate timestamping of temperature readings.
-
-
+For help getting started with Flutter development, view the
+[online documentation](https://docs.flutter.dev/), which offers tutorials,
+samples, guidance on mobile development, and a full API reference.
