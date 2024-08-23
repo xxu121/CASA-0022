@@ -2,6 +2,10 @@
 
 This project develops a user-friendly mobile system and website designed to monitor environmental conditions in Environmental Specimen Banks (ESBs). The system allows for real-time data access, ensuring that users can check environmental variables anytime, enhancing the ability to maintain optimal conditions for specimen preservation.
 
+# Physical device setting 
+
+Use arduino code
+
 # Features
 Real-Time Monitoring: Continuous tracking of environmental conditions such as temperature, humidity, and other relevant factors.
 
