@@ -7,6 +7,10 @@ This project develops a user-friendly mobile system and website designed to moni
 
 Use arduino code [DS18B20.ino](DS18B20.ino)on your own physical device. 
 
+
+PCB design from [PCB1.PcbDoc](PCB1.PcbDoc)
+
+
 # Features
 Real-Time Monitoring: Continuous tracking of environmental conditions such as temperature, humidity, and other relevant factors.
 
@@ -19,6 +23,7 @@ User-Friendly Interface: Intuitive design elements on both mobile and web platfo
 
 Alert System: Automated notifications to alert users about critical environmental changes or deviations from set thresholds.
 
+
 # Installation
 
 
@@ -26,6 +31,12 @@ Node.js (version 12.x or later)
 
 
 Flutter (for mobile app development)
+
+
+# Setting Up the Mobile Application
+
+
+Download the apk file from action, transfer it to the android phone. Allow system to download it.
 
 
 # Usage
